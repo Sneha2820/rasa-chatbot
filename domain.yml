@@ -1,0 +1,199 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - videocall
+  - Channel
+  - Msform
+  - list
+  - Mobile
+  - MobNum
+  - post
+  - file
+  - rename
+  - chat
+  - reenable
+  - signin
+  - cache
+  - delMessage
+  - create
+  - privateMeeting
+  - record
+  - sharing
+  - fullAccess
+  - chatCalender
+  - TaskAvail
+  - autoStart
+  - privateChannel
+  - CIDguidance
+  - openToPrivateChannel
+  - GetEmailAddress
+  - NoChatFunction
+  - Learning
+  - NoChatChannelMeeting
+  - editing
+  - presentation
+  - TeamChatInMobile
+  - TeamsCreditSuisse
+  - Location
+  - chatOnMobile
+  - Conferencing
+  - retentionPolicy
+  - Groups
+  - chatStorage
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  utter_videocall:
+  - text: "You can schedule meetings using the calendar icon in Teams (Note, this will change in machine users might experience media quality issues due to lack of optimisation. Video backgrounds - Change your background for a Teams meeting(Microsoft.com) https://support.microsoft.com/en-us/teams"
+   
+  utter_channel:
+  - text: "Self-service- How to create channel in MS Teams: https://support.microsoft.com/en-us/teams"
+   
+  utter_Msform:
+  - text: " Microsoft Forms is expected to be available in the first quarter of 2022 and it is currently going through TPRM"
+   
+  utter_list:
+  - text: "Self-service - Feature Functionality: https://support.microsoft.com/en-us/teams "
+   
+  utter_Mobile:
+  - text: "Self-service MS Teams Mobile: https://support.microsoft.com/en-us/teams "
+   
+  utter_MobNum :
+  - text: "Self-service- Issue related to Mobile Updates:  https://support.microsoft.com/en-us/teams "
+   
+  utter_post :
+  - text: "Self-service Post in MS Teams: https://support.microsoft.com/en-us/teams"
+   
+  utter_file :
+  - text: "Self-service- Working with files in MS Teams: https://support.microsoft.com/en-us/teams "
+   
+  utter_rename :
+  - text: " Self-service M365 https://support.microsoft.com/en-gb/microsoft-365"
+  
+  utter_chat :
+  - text: "Self-service- Working with Chats in MS Teams: https://support.microsoft.com/en-us/teams "
+   
+  utter_reenable :
+  - text: " Self-service https://support.microsoft.com/en-us/teams"
+   
+  utter_signin :
+  - text: "Self-service https://support.microsoft.com/en-us/teams "
+   
+  utter_cache :
+  - text: "Self-service- How to clear caches in MS Teams: https://support.microsoft.com/en-us/teams"
+   
+  utter_delMessage :
+  - text: "It has been implemented. Enable Messaging policies >> Owner can delete all sent messages "
+   
+  utter_create :
+  - text: "You can create a Team using Self-service https://support.microsoft.com/en-us/teams "
+   
+  utter_privateMeeting :
+  - text: "Update the group policy and re-boot the machine, which will resolve the issue:
+  i) Windows+R, type “cmd”, type “ /force” 
+  ii) Restart your PC and Check for the meeting participants in (required and optimal)"
+   
+  utter_record :
+  - text: " Recording is disabled at the moment, and it is undergoing architecture and compliance  "
+   
+  utter_sharing :
+  - text: " Full desktop sharing for 1:1, Multi-party and Meetings is enabled.if face any issue refer to solution no. 16"
+   
+  utter_fullAccess :
+  - text: " Migration is currently happening in batches eventually everyone will be migrated.  "
+     
+  utter_chatCalender :
+  - text: "Meeting chat is currently disabled for standard Teams meeting. Note: Standard chat meeting is planned to be released in Q1 2022 for an internal meeting.  "
+
+  utter_taskavail:
+  - text: "Task and Planner apps are expected to be available by end of Q1’22"
+
+  utter_autoStart :
+  - text: "You may switch Teams’ auto-start after clicking on the 3-dots icon next to your pic in the top right. "
+     
+  utter_privateChannel :
+  - text: "Feature is enabled and owners can create a private channel "
+     
+  utter_CIDguidance :
+  - text: " Teams is approved for C2 - Confidential data CID Self-service M365 https://support.microsoft.com/en-gb/microsoft-365 "
+     
+  utter_openToPrivateChannel :
+  - text: "Unfortunately we do not have options to switch an open channel to a private channel. "
+     
+  utter_GetEmailAddress :
+  - text: " This Feature is currently unavailable in CS Teams. Get email is expected to be available by the end of 2022."
+  
+  utter_NoChatFunction :
+  - text: "User(Harrington, Dann) not migrated to M365 and added Microsoft training/feedback. "
+     
+  utter_Learning :
+  - text: "Pass such business requirements to Murali "
+     
+  utter_NoChatChannelMeeting :
+  - text: "Channel and standard meeting chat features are enabled. "
+     
+  utter_editing :
+  - text: "Editing sent messages are disabled at the moment and it is expected to be available by Q2 2022."
+     
+  utter_presentation :
+  - text: "We do not have the option to use Annotation during presentation mode in Teams Meeting "
+     
+  utter_TeamChatInMobile :
+  - text: "There is a synchronisation issue. we are working on it. "
+     
+  utter_TeamsCreditSuisse :
+  - text: " Microsoft Teams is the successor to Skype for Business. It’s a SaaS solution, hosted by Microsoft. MS Teams will be provided in a multi-geo enabled capacity with Credit Suisse Data Residency."
+     
+  utter_Location :
+  - text: "Switzerland, North America, Europe, Asia Pacific and India "
+     
+  utter_chatOnMobile :
+  - text: "Sign out and Sign-in will resolve the issue - 
+  We found out you cannot chat on mobile with users who are newly added to the M365 service.
+  This does not happen in Desktop Teams chat, Only mobile will have this issue "
+     
+  utter_Conferencing :
+  - text: "How can I get dial/call in the info into my meeting invites.
+  when I create a meeting in teams my invites do not show any “Or call in” sections.
+  Ans: Dial-in numbers for Teams meetings are not enabled for CH users and they will be enabled by Q2 2022."
+  
+  utter_retentionPolicy :
+  - text: " Chats are retained for 11 years in the M365 archive"
+       
+  utter_Groups :
+  - text: " DSO-ALL-00-az_32298Teams_Recorded -> Recorded user group
+      USG-ALL-00-RTCEthical02 -> Ethical Group"
+       
+  utter_chatStorage :
+  - text: " We are not able to give any export unless it’s asked by the compliance.
+      1:1 stored Azure chat service and that is linked to user EXO mailbox
+       Group chat or Channel chat, then the chat will be stored in the M365 group mailbox. "
+
+    
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

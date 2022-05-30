@@ -1,0 +1,252 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: videocall
+  examples: |
+    - Can somebody tell me how to open a new video call and choose a background?
+
+
+- intent: Channel
+  examples: |
+    - how to create a Channel in MS Teams?
+
+    
+- intent: Msform
+  examples: |
+    - Plan to enable Microsoft Forms on O365?
+    
+- intent: list
+  examples: |
+    - Features and Functionality list
+
+    
+- intent: Mobile
+  examples: |
+    - Microsoft Teams Mobile
+    
+- intent: MobNum
+  examples: |
+    - Unable to access MS Teams after updating mobile number
+
+
+- intent: post
+  examples: |
+    - Working with posts in MS Teams
+    
+- intent: file
+  examples: |
+    - Working with Files in Microsoft Teams
+
+- intent: rename
+  examples: |
+    - M365 Teams - Renaming a Teams channel does not rename the corresponding folder in SharePoint Online
+
+- intent: chat
+  examples: |
+    - Working with Chat in Microsoft Teams
+    
+- intent: reenable
+  examples: |
+    - Microsoft Teams - User unable to see team members after account re-enabling
+    
+- intent: signin
+  examples: |
+    - M365 Teams - We couldn’t sign you in 
+
+- intent: cache
+  examples: |
+    - Microsoft Teams: how to clear cache to refresh policies
+
+- intent: delMessage
+  examples: |
+    - Microsoft Teams - Unable to delete/edit Messages in one-one Chat or group chat
+
+
+- intent: create
+  examples: |
+    - How to create a team
+    
+- intent: privateMeeting
+  examples: |
+    - When I try to schedule a new Teams Call I get the following text inside the field where I need to put the participants in (required and optional): “you don’t have permission to create private meetings”
+        
+- intent: record
+  examples: |
+    - Do Teams support recording?
+        
+- intent: sharing
+  examples: |
+    - Full desktop sharing options 
+        
+- intent: fullAccess
+  examples: |
+    - couple of team members who still do not have full Teams functionality. Can we do anything to get full access? Do we need to make a request?
+        
+- intent: chatCalender
+  examples: |
+    -  How to enable chat in the meeting request sent from the calendar in Teams? 
+
+- intent: TaskAvail
+  examples: |
+    - do we know when app Task will be available?
+
+- intent: autoStart
+  examples: |
+    - i do not want teams to start automatically after i logging to my machine
+
+- intent: privateChannel
+  examples: |
+    - unable to create a private channel even though am the owner
+    
+- intent: CIDguidance
+  examples: |
+    - CID guidance for M365 confidentiality
+
+- intent: openToPrivateChannel
+  examples: |
+    - can existing open channel be converted to private channel without losing all the conversations and tabs?
+
+- intent: GetEmailAddress
+  examples: |
+    - do we have the possibility to enable "Get email Address" from channels we have created?
+
+- intent: NoChatFunction
+  examples: |
+    - I have no chat function? But have been added to Microsoft365 training/feedback and am unsure why?
+        
+- intent: Learning
+  examples: |
+    - Hi Teams, we at Digital Learning & Operations are eager to understand how MS 365 and Teams can be used in learning and especially in interactions bin Learning Communities. Further, we would like to understand how and when MS Viva will be available and how we can integrate it into the existing learning platform. Who would be the right person to talk to?
+        
+- intent: NoChatChannelMeeting
+  examples: |
+    - Chat options are not working for channel Meeting
+        
+- intent: editing
+  examples: |
+    - Is editing messages disabled?
+        
+- intent: presentation
+  examples: |
+    - Is there any equivalent in teams when sharing a presentation to have other people on the call add tick marks, add test boxes etc like you can in Skype calls? E.g. in Skype, you can share in the presentation mode and all other guys on call can add ticks, crosses, add text notes to the pages etc. and then you can save a copy of the presentation with all annotations attached to it in XPS format. this has been really useful for our agile retrospectives. Now in Teams, we have to flip to whiteboards etc. then screenshot the whiteboard, add this back to the presentation ans then save the presentation and re-present it which is a bit disjointed.
+
+- intent: TeamChatInMobile
+  examples: |
+    - Why are all Microsoft Teams chats on Laptop not showing on the Mobile device?
+            
+- intent: TeamsCreditSuisse
+  examples: |
+    - About MS Teams@CreditSuisse
+           
+- intent: Location
+  examples: |
+    - Teams Data Location
+            
+- intent: chatOnMobile
+  examples: |
+    - Unable to chat on a Mobile device
+            
+- intent: Conferencing
+  examples: |
+    - Microsoft Teams Dial-in Conferencing
+            
+- intent: retentionPolicy
+  examples: |
+    - What is the retention policy for conversations?
+            
+- intent: Groups
+  examples: |
+    - Record group and Ethical group
+            
+- intent: chatStorage
+  examples: |
+    - Check where Microsoft Teams chats are stored and how to export them.

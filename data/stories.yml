@@ -1,0 +1,225 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: Details
+  steps:
+  - intent: videocall
+  - action: utter_videocall
+
+- story: Detail_channel
+  steps:
+  - intent: Channel
+  - action: utter_channel
+
+- story: Detail_Msform
+  steps:
+  - intent: Msform
+  - action: utter_Msform
+  
+- story: Detail_list
+  steps:
+  - intent: list
+  - action: utter_list
+  
+- story: Detail_Mobile
+  steps:
+  - intent: Mobile
+  - action: utter_Mobile
+  
+- story: Detail_MobNum
+  steps:
+  - intent: MobNum
+  - action: utter_MobNum
+  
+- story: Detail_post
+  steps:
+  - intent: post
+  - action: utter_post
+  
+- story: Detail_file
+  steps:
+  - intent: file
+  - action: utter_file
+
+- story: Detail_rename
+  steps:
+  - intent: rename
+  - action: utter_rename
+
+- story: Detail_chat
+  steps:
+  - intent: chat
+  - action: utter_chat
+  
+- story: Detail_reenable
+  steps:
+  - intent: reenable
+  - action: utter_reenable
+  
+- story: Detail_signin
+  steps:
+  - intent: signin
+  - action: utter_signin
+  
+- story: Detail_cache
+  steps:
+  - intent: cache
+  - action: utter_cache
+  
+- story: Detail_delMessage
+  steps:
+  - intent: delMessage
+  - action: utter_delMessage
+  
+- story: Detail_create
+  steps:
+  - intent: create
+  - action: utter_create
+  
+- story: Detail_privateMeeting
+  steps:
+  - intent: privateMeeting
+  - action: utter_privateMeeting
+  
+- story: Detail_record
+  steps:
+  - intent: record
+  - action: utter_record
+
+- story: Detail_sharing
+  steps:
+  - intent: sharing
+  - action: utter_sharing
+  
+- story: Detail_fullAccess
+  steps:
+  - intent: fullAccess
+  - action: utter_fullAccess
+  
+- story: Detail_chatCalender
+  steps:
+  - intent: chatCalender
+  - action: utter_chatCalender
+    
+- story: Detail_TaskAvail
+  steps:
+  - intent: TaskAvail
+  - action: utter_taskavail
+    
+- story: Detail_autoStart
+  steps:
+  - intent: autoStart
+  - action: utter_autoStart
+    
+- story: Detail_privateChannel
+  steps:
+  - intent: privateChannel
+  - action: utter_privateChannel
+    
+- story: Detail_CIDguidance
+  steps:
+  - intent: CIDguidance
+  - action: utter_CIDguidance
+    
+- story: Detail_openToPrivateChannel
+  steps:
+  - intent: openToPrivateChannel
+  - action: utter_openToPrivateChannel
+    
+- story: Detail_GetEmailAddress
+  steps:
+  - intent: GetEmailAddress
+  - action: utter_GetEmailAddress
+
+- story: Detail_NoChatFunction
+  steps:
+  - intent: NoChatFunction
+  - action: utter_NoChatFunction
+    
+- story: Detail_Learning
+  steps:
+  - intent: Learning
+  - action: utter_Learning
+    
+- story: Detail_NoChatChannelMeeting
+  steps:
+  - intent: NoChatChannelMeeting
+  - action: utter_NoChatChannelMeeting
+    
+- story: Detail_editing
+  steps:
+  - intent: editing
+  - action: utter_editing
+    
+- story: Detail_presentation
+  steps:
+  - intent: presentation
+  - action: utter_presentation
+    
+- story: Detail_TeamChatInMobile
+  steps:
+  - intent: TeamChatInMobile
+  - action: utter_TeamChatInMobile
+    
+- story: Detail_TeamsCreditSuisse
+  steps:
+  - intent: TeamsCreditSuisse
+  - action: utter_TeamsCreditSuisse
+    
+- story: Detail_Location
+  steps:
+  - intent: Location
+  - action: utter_Location
+    
+- story: Detail_chatOnMobile
+  steps:
+  - intent: chatOnMobile
+  - action: utter_chatOnMobile
+    
+- story: Detail_Conferencing
+  steps:
+  - intent: Conferencing
+  - action: utter_Conferencing
+    
+- story: Detail_retentionPolicy
+  steps:
+  - intent: retentionPolicy
+  - action: utter_retentionPolicy
+    
+- story: Detail_Groups
+  steps:
+  - intent: Groups
+  - action: utter_Groups
+    
+- story: Detail_chatStorage
+  steps:
+  - intent: chatStorage
+  - action: utter_chatStorage
